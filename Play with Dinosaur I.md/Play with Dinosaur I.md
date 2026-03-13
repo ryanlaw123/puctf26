@@ -20,7 +20,7 @@ and we can see that the game includes **libil2cpp.so** in the lib folder, which 
 
 ![image](assets/image-20260312215521-uumi8kv.png)
 
-After loading **libil2cpp.so** and **global-metadata.dat** into ​**[Il2CppDumper](https://github.com/Perfare/Il2CppDumper)**, it generates several output files, including ​**dump.cs**​, ​**stringliteral.json**​, ​**script.json**​, and ​**il2cpp.h**.
+After loading **libil2cpp.so** and **global-metadata.dat** into ​[Il2CppDumper](https://github.com/Perfare/Il2CppDumper), it generates several output files, including ​**dump.cs**​, ​**stringliteral.json**​, ​**script.json**​, and ​**il2cpp.h**.
 
 then inspect **dump.cs** to analyze the game logic, where we find the following:
 
