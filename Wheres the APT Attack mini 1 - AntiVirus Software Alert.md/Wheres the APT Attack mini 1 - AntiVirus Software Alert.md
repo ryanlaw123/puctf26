@@ -239,7 +239,7 @@ To determine when antivirus protection was disabled, we examined the Windows Def
 
 ### **Hostname:**
 
-To determine the system hostname, we examined the `SYSTEM`​ registry hive using ​**[Registry Explorer](https://download.ericzimmermanstools.com/net9/RegistryExplorer.zip)**.  
+To determine the system hostname, we examined the `SYSTEM`​ registry hive using ​[Registry Explorer](https://download.ericzimmermanstools.com/net9/RegistryExplorer.zip).  
 The hostname can be found under the following key:
 
 ​`ControlSet001\Control\ComputerName\ComputerName`
